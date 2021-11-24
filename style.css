@@ -1,0 +1,87 @@
+.wrapper{
+ max-width: 365px;
+ height: 100vh;
+ left: 0px;
+ top: 92px;
+
+ display: flex;
+ flex-flow: column wrap;
+ align-items: center;
+}
+
+
+
+
+
+/* Toolbox */
+.nav {
+  padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* logo */
+.logo {
+    font-family: inter;
+   font-weight: 600px; 
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #28352F;
+
+
+}
+
+/* Toggle button */
+.ToggleButton {
+  width: 40px;
+  height: 40px;
+}
+
+/* Heading */
+.container{
+    background-image: url('images/Icons/header-illsutration-mobile@2x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.headline{
+    padding: 64px 24px;
+    display: flex;
+    flex-flow: column;
+    height: fit-content;
+    align-items: center;
+}
+.headline .Primary {
+  
+}
+h2 {
+  margin 58px 0px;
+  font-family: inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: #172B4D;
+}
+h2 span{
+    font-family: inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    color: rgb(56, 136, 56);
+}
+
+p{
+  font-family:inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172B4D;
+}
