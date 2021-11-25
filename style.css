@@ -1,38 +1,34 @@
-.wrapper{
- max-width: 365px;
- height: 100vh;
- left: 0px;
- top: 92px;
-
- display: flex;
- flex-flow: column wrap;
- align-items: center;
+.wrapper {
+  width: 375px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
-
-
-
+header {
+  width: inherit;
+  display: flex;
+}
 
 /* Toolbox */
-.nav {
-  padding: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 
+nav {
+  width: inherit;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* logo */
 .logo {
-    font-family: inter;
-   font-weight: 600px; 
+  font-family: Inter, sans-serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #28352F;
-
-
+  color: #28352f;
 }
 
 /* Toggle button */
@@ -42,46 +38,69 @@
 }
 
 /* Heading */
-.container{
-    background-image: url('images/Icons/header-illsutration-mobile@2x.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+main {
+  background-image: url('images/Icons/header-illsutration-mobile@2x.png');
+  background-repeat: no-repeat;
+  background-size: 360px;
 }
-.headline{
-    padding: 64px 24px;
-    display: flex;
-    flex-flow: column;
-    height: fit-content;
-    align-items: center;
+
+article {
+  display: flex;
+  flex-flow: column;
+  margin: 10px 20px;
 }
-.headline .Primary {
-  
+
+article .Primary {
+  margin-top: 64px;
+  align-self: center;
 }
-h2 {
-  margin 58px 0px;
-  font-family: inter;
+
+#Primary-1 {
+  padding: 8px 0;
+  margin: 0;
+  text-align: center;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
   line-height: 52px;
-  color: #172B4D;
-}
-h2 span{
-    font-family: inter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 48px;
-    line-height: 52px;
-    color: rgb(56, 136, 56);
+  color: #172b4d;
 }
 
-p{
-  font-family:inter;
+#Primary-2 {
+  padding: 8px 0;
+  margin: 0 5px;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: rgb(82, 150, 82);
+}
+
+.supporting {
+  width: 327px;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+article .supporting {
+  align-content: center;
+  align-items: center;
+}
+
+p {
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
+}
+
+.social-logos {
+  width: 50%;
+  align-self: center;
 }
