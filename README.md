@@ -13,7 +13,10 @@ It showcase my programming skills and experiences plus links to other projects o
 
 ## How to use and run this project
 
-This is just a webpage and It can be opened in any browser. I have put a live demo link below in the following section so that
+This is just a webpage and It can be opened in any browser.
+It is a mobile version layout which is not yet turned into responsive that is why you will notice that it does not fit the desktop screen.
+
+I have put a live demo link below in the following section so that
 if anyone is interested can view it. However, if anyone would like to use it, simply, they can fork the repository and then use it independently.
 There are no other dependencies or installations required.
 
@@ -22,7 +25,8 @@ This project is still under development.
 ## Live Demo link
 
 
-##Screenshoot
+## Screenshoot
+![Milestone1](https://user-images.githubusercontent.com/90222110/143496360-06183256-7e4a-41d2-8eb6-5584b694f23d.jpg)
 
 
 ## Authors
