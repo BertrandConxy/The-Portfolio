@@ -1,18 +1,20 @@
-.wrapper {
+body {
+  margin: 0;
+  padding: 4px 0;
   width: 375px;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
 }
 
 header {
   width: inherit;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 /* Toolbox */
 
 nav {
+  margin: 0;
   width: inherit;
   padding: 8px;
   display: flex;
@@ -31,33 +33,29 @@ nav {
   color: #28352f;
 }
 
-/* Toggle button */
-.ToggleButton {
-  width: 40px;
-  height: 40px;
-}
+/* Showcase */
 
-/* Heading */
-main {
-  background-image: url('images/Icons/header-illsutration-mobile@2x.png');
-  background-repeat: no-repeat;
-  background-size: 360px;
-}
-
-article {
+section {
   display: flex;
   flex-flow: column;
-  margin: 10px 20px;
+  padding: 4px;
+  width: inherit;
 }
 
-article .Primary {
-  margin-top: 64px;
-  align-self: center;
+#section-1 {
+  background-position: center;
+  background-image: url('images/Icons/header-illsutration-mobile@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: inherit;
+  margin-left: 0;
 }
 
 #Primary-1 {
   padding: 8px 0;
-  margin: 0;
+  margin: 25px 0;
+  margin-right: 20px;
   text-align: center;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -76,7 +74,12 @@ article .Primary {
   font-weight: bold;
   font-size: 48px;
   line-height: 52px;
-  color: rgb(82, 150, 82);
+  color: #36b37e;
+}
+
+.Primary {
+  width: inherit;
+  align-content: center;
 }
 
 .supporting {
