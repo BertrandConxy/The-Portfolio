@@ -6,36 +6,41 @@ body {
 
 header {
   width: inherit;
-  display: flex;
   margin: 0;
   padding: 0;
 }
 
 /* Toolbox */
 
-nav {
-  margin: 0;
-  width: inherit;
+.nav {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  height: 50px;
+  align-content: space-between;
 }
 
 /* logo */
 .logo {
+  height: inherit;
+  text-decoration: none;
   font-family: Inter, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 1px;
   text-align: center;
   color: #28352f;
+  flex: 5;
 }
 
 /* Toggle button */
-.ToggleButton {
+.Togglebutton {
+  flex: 0;
+}
+
+#MenuIcons {
   width: 40px;
-  height: 40px;
+  height: inherit;
 }
 
 /* Heading */
@@ -107,7 +112,23 @@ p {
   color: #172b4d;
 }
 
-.social-logos {
-  width: 50%;
-  align-self: center;
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.social-icon {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
 }
