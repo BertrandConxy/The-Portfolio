@@ -135,7 +135,129 @@ ul {
 }
 
 hr {
+  color: #36b37e;
   border: 4px solid  #36b37e;
   border-radius: 30px;
+  background-color: #36b37e;
   width: 50px;
+}
+
+#section-2 {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 20px;
+}
+
+.card {
+  border: 2.5px solid #d0d9d4;
+  border-radius: 9px;
+  display: flex;
+  flex-flow: column-reverse wrap;
+  background-color: #ebf0ee;
+  height: 500px;
+}
+
+.textholder {
+  background-color: white;
+}
+
+.cells {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.cell {
+  text-decoration: none;
+  color: #3a4a42;
+  background-color: #ebf0ee;
+  border-radius: 4px;
+  height: 25px;
+  margin: 0;
+  padding: 9px 10px;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+h3 {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #3a4a42;
+  text-align: center;
+}
+
+.Primary-btn {
+  text-decoration: none;
+  padding: 10px 19px;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  border-radius: 8px;
+  width: fit-content;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+}
+
+.btn {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#section-3 {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  margin: 20px;
+}
+
+#card-2 {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  border: 2.5px solid #d0d9d4;
+  border-radius: 9px;
+  background-color: #ebf0ee;
+  height: 500px;
+}
+
+.tag-title {
+  color: #344563;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+
+.tag-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#tag {
+  text-decoration: none;
+  padding: 5px 10px;
+  background-color: blue;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.icon {
+  flex: 2 5 auto;
+  text-align: center;
+  padding-top: 10px;
 }
