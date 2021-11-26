@@ -23,11 +23,14 @@ There are no other dependencies or installations required.
 ## Project Status
 This project is still under development.
 ## Live Demo link
-
+ https://bertrandconxy.github.io/The-Portfolio/
 
 ## Screenshoot
 ![Milestone1](https://user-images.githubusercontent.com/90222110/143496360-06183256-7e4a-41d2-8eb6-5584b694f23d.jpg)
 
+## Issues
+
+Still working on how to make images appear on the web hosted on gihub.
 
 ## Authors
 
