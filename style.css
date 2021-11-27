@@ -357,7 +357,7 @@ form {
 }
 
 .background {
-  background-image: url("images/Icons/illustration.png");
+  background-image: url('images/Icons/illustration.png');
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
