@@ -227,7 +227,7 @@ h3 {
   border: 2.5px solid #d0d9d4;
   border-radius: 9px;
   background-color: #ebf0ee;
-  height: 500px;
+  height: 405px;
 }
 
 .tag-title {
@@ -245,7 +245,7 @@ h3 {
   justify-content: space-between;
 }
 
-#tag {
+.tag {
   text-decoration: none;
   padding: 5px 10px;
   background-color: blue;
@@ -260,4 +260,98 @@ h3 {
   flex: 2 5 auto;
   text-align: center;
   padding-top: 10px;
+}
+
+.cell2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #36b37e;
+  background-color: white;
+  border-radius: 4px;
+  height: 25px;
+  margin: 3px;
+  padding: 9px 10px;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.img-holder {
+  display: flex;
+  justify-content: center;
+  padding: 38px;
+}
+
+.cells2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  padding: 3px;
+}
+
+form {
+  text-align: center;
+  margin: 4px 4px;
+}
+
+.name {
+  width: 299px;
+  height: 48px;
+  border: 1px solid #d0d9d4;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 10px 5px;
+  color: #6b778c;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#textarea {
+  position: relative;
+  border-color: #36b37e;
+  height: 114px;
+}
+
+.inside {
+  position: absolute;
+  bottom: 106px;
+  width: 265px;
+  height: 94px;
+  display: flex;
+  justify-content: flex-start;
+  top: 16px;
+  left: 46px;
+  color: #091e42;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.mail {
+  margin-top: 0;
+  height: 200px;
+}
+
+#mail {
+  margin-top: 0;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: #42526e;
 }
