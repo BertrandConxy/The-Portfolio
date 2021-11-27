@@ -18,6 +18,14 @@ It showcase my programming skills and experiences plus links to other projects o
 - Twitter: [@Bconxy](https://twitter.com/Bconxy)
 - LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
 
+## How to use and run the project
+
+this is a mobile version skeleton of the portfolio web page
+you can run it in any browser by clicking on the link provided below.
+
+## Live Demo Link
+https://bertrandconxy.github.io/The-Portfolio/
+
 
 ## Show your support
 
