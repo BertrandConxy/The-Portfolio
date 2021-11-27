@@ -115,7 +115,7 @@ p {
 
 ul {
   list-style-type: none;
-  margin-top: 10px;
+  margin-top: 4.5px;
   display: flex;
   justify-content: center;
   width: 290px;
@@ -357,7 +357,7 @@ form {
 }
 
 .background {
-  background-image: url("images/Icons/illustration-\ about\ me-\ mobile.png");
+  background-image: url("images/Icons/illustration.png");
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
@@ -365,7 +365,7 @@ form {
 
 #frame {
   float: right;
-  width: 35px;
+  width: 70px;
   height: 113px;
   top: 20px;
 }
