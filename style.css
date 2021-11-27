@@ -52,7 +52,7 @@ section {
   margin-left: 0;
 }
 
-#Primary-1 {
+.Primary-1 {
   padding: 8px 0;
   margin: 25px 0;
   margin-right: 20px;
@@ -220,7 +220,7 @@ h3 {
   margin: 20px;
 }
 
-#card-2 {
+.card-2 {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -363,7 +363,7 @@ form {
   width: 100%;
 }
 
-#frame {
+.frame {
   float: right;
   width: 70px;
   height: 113px;
