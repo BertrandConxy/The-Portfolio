@@ -115,10 +115,10 @@ p {
 
 ul {
   list-style-type: none;
-  margin-top: 20px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  width: 300px;
+  width: 290px;
 }
 
 .social-icon {
@@ -354,4 +354,42 @@ form {
   font-size: 20px;
   line-height: 32px;
   color: #42526e;
+}
+
+.background {
+  background-image: url("images/Icons/illustration-\ about\ me-\ mobile.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+#frame {
+  float: right;
+  width: 35px;
+  height: 113px;
+  top: 20px;
+}
+
+#Primary-3 {
+  padding: 8px 0;
+  margin: 25px 40px;
+  margin-right: 20px;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: #172b4d;
+  float: left;
+}
+
+#support {
+  clear: both;
+}
+
+.social-icon2 {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
 }
