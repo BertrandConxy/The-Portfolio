@@ -33,11 +33,6 @@ header {
   flex: 5;
 }
 
-/* Toggle button */
-.Togglebutton {
-  flex: 0;
-}
-
 img.MenuIcons {
   width: 38px;
   height: inherit;
@@ -63,13 +58,9 @@ section {
   text-align: center;
 }
 
-.Primary {
-  margin-top: 64px;
-  align-self: center;
-}
-
 #Primary-1 {
-  padding: 8px 0;
+  padding: 75px 0;
+  padding-bottom: 2px;
   margin: 0;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -81,7 +72,7 @@ section {
 }
 
 #Primary-2 {
-  padding: 8px 0;
+  padding: 10px 0;
   margin: 0 5px;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -92,17 +83,6 @@ section {
   color: #36b37e;
 }
 
-.supporting {
-  width: 327px;
-  margin: 20px 20px;
-  text-align: center;
-}
-
-section .supporting {
-  align-content: center;
-  align-items: center;
-}
-
 p {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -111,9 +91,12 @@ p {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 327px;
 }
 
-ul {
+ul.social {
   list-style-type: none;
   margin-top: 20px;
   display: flex;
