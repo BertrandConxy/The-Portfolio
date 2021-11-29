@@ -38,8 +38,8 @@ header {
   flex: 0;
 }
 
-#MenuIcons {
-  width: 50px;
+img.MenuIcons {
+  width: 38px;
   height: inherit;
 }
 
