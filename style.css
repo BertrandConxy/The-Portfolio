@@ -7,12 +7,7 @@ body {
 header {
   width: inherit;
   margin: 0;
-  padding: 0;
-}
-
-/* Toolbox */
-
-.nav {
+  padding: 10px 12px;
   display: flex;
   flex-flow: column wrap;
   height: 50px;
@@ -21,6 +16,7 @@ header {
 
 /* logo */
 .logo {
+  padding: 0 12px;
   height: inherit;
   text-decoration: none;
   font-family: Inter, sans-serif;
@@ -36,6 +32,10 @@ header {
 img.MenuIcons {
   width: 38px;
   height: inherit;
+}
+
+nav {
+  padding: 0 30px;
 }
 
 /* Heading */
