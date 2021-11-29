@@ -288,68 +288,6 @@ ul.cells2 {
   margin: 2px 0;
 }
 
-form {
-  text-align: center;
-  margin: 4px 4px;
-}
-
-.name {
-  width: 299px;
-  height: 48px;
-  border: 1px solid #d0d9d4;
-  box-sizing: border-box;
-  border-radius: 4px;
-  margin: 10px 5px;
-  color: #6b778c;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-#textarea {
-  position: relative;
-  border-color: #36b37e;
-  height: 114px;
-}
-
-.inside {
-  position: absolute;
-  bottom: 106px;
-  width: 265px;
-  height: 94px;
-  display: flex;
-  justify-content: flex-start;
-  top: 16px;
-  left: 46px;
-  color: #091e42;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-.wrapper {
-  position: relative;
-}
-
-.mail {
-  margin-top: 0;
-  height: 200px;
-}
-
-#mail {
-  margin-top: 0;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  color: #42526e;
-}
-
 .background {
   background-image: url('images/Icons/illustration.png');
   background-position: center;
@@ -366,8 +304,8 @@ form {
 
 #Primary-3 {
   padding: 8px 0;
-  margin: 25px 22px;
-  margin-right: 20px;
+  margin-left: 34px;
+  margin-bottom: 20px;
   text-align: center;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -382,18 +320,4 @@ form {
   clear: both;
   margin-left: 0;
   margin-bottom: 5px;
-}
-
-.social-icon2 {
-  padding: 0 10px;
-  display: flex;
-  justify-content: space-between;
-}
-
-ul.social2 {
-  list-style-type: none;
-  margin-top: 4.5px;
-  display: flex;
-  justify-content: center;
-  width: 290px;
 }
