@@ -86,9 +86,6 @@ section {
   width: 327px;
   margin: 20px 20px;
   text-align: center;
-}
-
-article .supporting {
   align-content: center;
   align-items: center;
 }
@@ -113,7 +110,7 @@ p {
   height: inherit;
 }
 
-ul {
+ul.social {
   list-style-type: none;
   margin-top: 4.5px;
   display: flex;
@@ -161,10 +158,13 @@ hr {
   background-color: white;
 }
 
-.cells {
+ul.cells {
+  list-style-type: none;
   display: flex;
   justify-content: space-around;
   text-align: center;
+  margin: 2px 2px;
+  padding: 0;
 }
 
 .cell {
@@ -174,7 +174,7 @@ hr {
   border-radius: 4px;
   height: 25px;
   margin: 0;
-  padding: 9px 10px;
+  padding: 12px 9px;
   text-align: center;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -268,16 +268,16 @@ h3 {
   text-decoration: none;
   color: #36b37e;
   background-color: white;
-  border-radius: 4px;
+  border-radius: 8px;
   height: 25px;
   margin: 3px;
-  padding: 9px 10px;
+  padding: 8px 10px;
   text-align: center;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 24px;
 }
 
 .img-holder {
@@ -286,12 +286,14 @@ h3 {
   padding: 38px;
 }
 
-.cells2 {
+ul.cells2 {
   display: flex;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
-  padding: 3px;
+  padding: 0;
+  list-style-type: none;
+  margin: 2px 0;
 }
 
 form {
@@ -392,4 +394,12 @@ form {
   padding: 0 10px;
   display: flex;
   justify-content: space-between;
+}
+
+ul.social2 {
+  list-style-type: none;
+  margin-top: 4.5px;
+  display: flex;
+  justify-content: center;
+  width: 290px;
 }
