@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 4px 0;
+  width: 375px;
+}
+
+header {
+  width: inherit;
+  margin: 0;
+  padding: 10px 12px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 50px;
+  align-content: space-between;
+}
+
+/* logo */
+.logo {
+  padding: 0 12px;
+  height: inherit;
+  text-decoration: none;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 1px;
+  text-align: center;
+  color: #28352f;
+  flex: 5;
+}
+
+img.MenuIcons {
+  width: 38px;
+  height: inherit;
+}
+
+nav {
+  padding: 0 30px;
+}
+
+/* Heading */
+
+section {
+  display: flex;
+  flex-flow: column;
+  margin: 10px 20px;
+  width: inherit;
+}
+
+.section-1 {
+  background-image: url('images/Icons/header-illsutration-mobile@2x.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: inherit;
+  margin-left: 0;
+  text-align: center;
+}
+
+#Primary-1 {
+  padding: 75px 0;
+  padding-bottom: 2px;
+  margin: 0;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#Primary-2 {
+  padding: 10px 0;
+  margin: 0 5px;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: #36b37e;
+}
+
+p {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 327px;
+}
+
+ul.social {
+  list-style-type: none;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+
+.social-icon {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  margin-top: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
