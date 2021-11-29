@@ -26,7 +26,9 @@ This project is still under development.
  https://bertrandconxy.github.io/The-Portfolio/
 
 ## Screenshoot
-![Milestone1](https://user-images.githubusercontent.com/90222110/143496360-06183256-7e4a-41d2-8eb6-5584b694f23d.jpg)
+
+
+![home](https://user-images.githubusercontent.com/90222110/143865232-58e8eed4-aefb-4cac-a77c-5132257f42e4.jpg)
 
 ## Issues
 
