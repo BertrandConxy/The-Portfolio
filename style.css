@@ -53,9 +53,9 @@ section {
 }
 
 .Primary-1 {
-  padding: 8px 0;
-  margin: 46px 0;
-  margin-right: 20px;
+  padding: 75px 0;
+  padding-bottom: 2px;
+  margin: 0;
   text-align: center;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -66,7 +66,7 @@ section {
 }
 
 #Primary-2 {
-  padding: 8px 0;
+  padding: 0;
   margin: 0 5px;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -77,17 +77,13 @@ section {
   color: #36b37e;
 }
 
-.Primary {
-  width: inherit;
-  align-content: center;
-}
-
 .supporting {
   width: 327px;
-  margin: 20px 20px;
   text-align: center;
   align-content: center;
   align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 p {
@@ -98,11 +94,7 @@ p {
   line-height: 28px;
   text-align: center;
   color: #172b4d;
-  margin-bottom: 0;
-}
-
-.Togglebutton {
-  flex: 0;
+  margin-bottom: 32px;
 }
 
 #MenuIcons {
@@ -367,14 +359,14 @@ form {
 
 .frame {
   float: right;
-  width: 70px;
+  width: 55px;
   height: 113px;
   top: 20px;
 }
 
 #Primary-3 {
   padding: 8px 0;
-  margin: 25px 40px;
+  margin: 25px 22px;
   margin-right: 20px;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -388,6 +380,9 @@ form {
 
 #support {
   clear: both;
+  margin-left: 0;
+  margin-bottom: 5px;
+
 }
 
 .social-icon2 {
