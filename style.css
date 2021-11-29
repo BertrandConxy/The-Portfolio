@@ -128,6 +128,7 @@ hr {
   border-radius: 30px;
   background-color: #36b37e;
   width: 50px;
+  margin-bottom: 62px;
 }
 
 #section-2 {
@@ -163,7 +164,6 @@ ul.cells {
   color: #3a4a42;
   background-color: #ebf0ee;
   border-radius: 4px;
-  height: 25px;
   margin: 0;
   padding: 8px 12px;
   text-align: center;
@@ -201,6 +201,7 @@ h3 {
 
 .btn {
   padding: 20px;
+  padding-bottom: 28px;
   display: flex;
   justify-content: center;
 }
@@ -219,38 +220,6 @@ h3 {
   border-radius: 9px;
   background-color: #ebf0ee;
   height: 405px;
-}
-
-.tag-title {
-  color: #344563;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  text-align: center;
-}
-
-.tag-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.tag {
-  text-decoration: none;
-  padding: 5px 10px;
-  background-color: blue;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-}
-
-.icon {
-  flex: 2 5 auto;
-  text-align: center;
-  padding-top: 10px;
 }
 
 .cell2 {
