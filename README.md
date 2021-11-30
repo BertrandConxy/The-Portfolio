@@ -36,11 +36,11 @@ There are no other dependencies or installations required.
 
 ## Project Status
 This project is still under development.
+
 ## Live Demo link
  https://bertrandconxy.github.io/The-Portfolio/
 
 ## Screenshoot
-
 
 ![home](https://user-images.githubusercontent.com/90222110/143865232-58e8eed4-aefb-4cac-a77c-5132257f42e4.jpg)
 
@@ -59,10 +59,6 @@ https://github.com/BertrandConxy/The-Portfolio/issues
 - GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
 - Twitter: [@Bconxy](https://twitter.com/Bconxy)
 - LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
-
-
-## Live Demo Link
-https://bertrandconxy.github.io/The-Portfolio/
 
 
 ## Show your support
