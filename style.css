@@ -221,7 +221,12 @@ h3 {
   margin: 20px;
 }
 
-.card-2 {
+#Categories {
+  margin: 0;
+  padding: 0;
+}
+
+li.card-2 {
   display: flex;
   flex-flow: column wrap;
   align-content: center;
@@ -229,6 +234,7 @@ h3 {
   border-radius: 9px;
   background-color: #ebf0ee;
   height: 405px;
+  margin: 20px 0;
 }
 
 .cell2 {
