@@ -13,6 +13,16 @@ It showcase my programming skills and experiences plus links to other projects o
 
 ## How to use and run this project
 
+>To get a local copy up and running follow these simple example steps.
+
+-Clone this repository with
+git clone https://github.com/BertrandConxy/The-Portfolio.git using your terminal or command line.
+
+-Change to the project directory by entering :
+cd The-Portfolio in the terminal.
+
+-run code . to open it in vscode
+
 This is just a webpage and It can be opened in any browser.
 It is a mobile version layout which is not yet turned into responsive that is why you will notice that it does not fit the desktop screen.
 
