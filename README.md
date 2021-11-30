@@ -25,7 +25,9 @@ cd The-Portfolio in the terminal.
 
 -run code . to open it in vscode
 
+
 It is just a webpage and It can be opened in any browser.
+
 It is a mobile version layout which is not yet turned into responsive that is why you will notice that it does not fit the desktop screen.
 
 I have put a live demo link below in the following section so that
