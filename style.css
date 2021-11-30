@@ -4,6 +4,7 @@ body {
   width: 375px;
 }
 
+/* ToolBar */
 header {
   height: 50px;
   margin: 0;
@@ -14,7 +15,7 @@ header {
 }
 
 nav {
-  padding: 0 30px;
+  padding: 0 14px;
 }
 
 /* logo */
@@ -51,9 +52,21 @@ section {
   margin-left: 0;
 }
 
-.Primary-1 {
+#Intro {
   padding: 75px 0;
   padding-bottom: 2px;
+  margin: 0;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+#Recent {
+  padding: 0;
   margin: 0;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -76,15 +89,6 @@ section {
   color: #36b37e;
 }
 
-.supporting {
-  width: 327px;
-  text-align: center;
-  align-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 20px;
-}
-
 p {
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -94,6 +98,11 @@ p {
   text-align: center;
   color: #172b4d;
   margin-bottom: 32px;
+  width: 327px;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 #MenuIcons {
