@@ -3,9 +3,9 @@
 # The Portfolio Project
 
 >This is the first portfolio project made at microverse.
->Here there is only a headline part.
+>Here there is Home page.
 
-It showcase my programming skills and experiences plus links to other projects of mine.
+It showcases my programming skills and experiences plus links to other projects of mine.
 
 ## Built With
 
@@ -13,7 +13,19 @@ It showcase my programming skills and experiences plus links to other projects o
 
 ## How to use and run this project
 
-This is just a webpage and It can be opened in any browser.
+>To get a local copy up and running follow these simple example steps.
+
+-Clone this repository with
+
+git clone https://github.com/BertrandConxy/The-Portfolio.git using your terminal or command line.
+
+-Change to the project directory by entering :
+
+cd The-Portfolio in the terminal.
+
+-run code . to open it in vscode
+
+It is just a webpage and It can be opened in any browser.
 It is a mobile version layout which is not yet turned into responsive that is why you will notice that it does not fit the desktop screen.
 
 I have put a live demo link below in the following section so that
@@ -32,8 +44,10 @@ This project is still under development.
 
 ## Issues
 
-Up to now, there are no issues with it
-Here is the link to the Issues tab
+Up to now, there are no issues with it.
+
+Here is the link to the Issues tab:
+
 https://github.com/BertrandConxy/The-Portfolio/issues
 
 ## Authors
@@ -44,10 +58,6 @@ https://github.com/BertrandConxy/The-Portfolio/issues
 - Twitter: [@Bconxy](https://twitter.com/Bconxy)
 - LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
 
-## How to use and run the project
-
-this is a mobile version skeleton of the portfolio web page
-you can run it in any browser by clicking on the link provided below.
 
 ## Live Demo Link
 https://bertrandconxy.github.io/The-Portfolio/
