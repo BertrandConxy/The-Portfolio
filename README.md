@@ -32,7 +32,7 @@ This project is still under development.
 
 ## Issues
 
-Still working on how to make images appear on the web hosted on gihub.
+Up to now, there are no issues with it
 
 ## Authors
 
