@@ -33,6 +33,8 @@ This project is still under development.
 ## Issues
 
 Up to now, there are no issues with it
+Here is the link to the Issues tab
+https://github.com/BertrandConxy/The-Portfolio/issues
 
 ## Authors
 
