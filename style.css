@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 4px 0;
-  width: 375px;
 }
 
 /* ToolBar */
@@ -33,40 +32,31 @@ nav {
   flex: 5;
 }
 
-/* Showcase */
+#MenuIcons {
+  width: 40px;
+  height: inherit;
+}
 
+/* Showcase */
 section {
-  display: flex;
-  flex-flow: column;
-  padding: 4px;
-  width: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 #section-1 {
+  display: flex;
+  flex-flow: column;
   background-position: center;
   background-image: url('images/Icons/header-illsutration-mobile@2x.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: inherit;
-  margin-left: 0;
+  height: auto;
 }
 
 #Intro {
   padding: 75px 0;
   padding-bottom: 2px;
-  margin: 0;
-  text-align: center;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 52px;
-  color: #172b4d;
-}
-
-#Recent {
-  padding: 0;
   margin: 0;
   text-align: center;
   font-family: Inter, sans-serif;
@@ -98,24 +88,17 @@ p {
   text-align: center;
   color: #172b4d;
   margin-bottom: 32px;
-  width: 327px;
   align-content: center;
   align-items: center;
   margin-top: 20px;
   margin-left: 20px;
 }
 
-#MenuIcons {
-  width: 40px;
-  height: inherit;
-}
-
 ul.social {
   list-style-type: none;
   margin-top: 4.5px;
-  display: flex;
+  display: inherit;
   justify-content: center;
-  width: 290px;
 }
 
 .social-icon {
@@ -141,9 +124,28 @@ hr {
 }
 
 #section-2 {
-  grid-template-columns: 1fr;
-  gap: 20px;
   margin: 20px;
+  display: flex;
+  flex-flow: column;
+}
+
+#Recent {
+  padding: 0;
+  margin: 10px 0;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  gap: 20px;
 }
 
 .card {
@@ -152,7 +154,8 @@ hr {
   display: flex;
   flex-flow: column-reverse wrap;
   background-color: #ebf0ee;
-  height: 500px;
+  height: 474px;
+  width: 327px;
 }
 
 .textholder {
@@ -234,9 +237,9 @@ h3 {
 }
 
 #section-3 {
-  grid-template-columns: 1fr;
-  gap: 20px;
   margin: 20px;
+  display: flex;
+  flex-flow: column;
 }
 
 #Categories {
@@ -251,8 +254,9 @@ li.card-2 {
   border: 2.5px solid #d0d9d4;
   border-radius: 9px;
   background-color: #ebf0ee;
-  height: 405px;
-  margin: 20px 0;
+  height: 352px;
+  width: 327px;
+  margin: 0;
 }
 
 .cell2 {
@@ -276,7 +280,7 @@ li.card-2 {
 .img-holder {
   display: flex;
   justify-content: center;
-  padding: 38px;
+  padding: 23px;
 }
 
 ul.cells2 {
@@ -321,8 +325,4 @@ ul.cells2 {
   clear: both;
   margin-left: 0;
   margin-bottom: 5px;
-}
-
-ul#menu {
-  list-style-type: none0j;
 }
