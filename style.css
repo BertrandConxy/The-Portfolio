@@ -48,7 +48,7 @@ section {
   display: flex;
   flex-flow: column;
   background-position: center;
-  background-image: url('images/Icons/header-illsutration-mobile@2x.png');
+  background-image: url('images/Icons/Bg-home.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -124,6 +124,7 @@ hr {
   margin-bottom: 62px;
 }
 
+/* Recent Work */
 #section-2 {
   margin: 20px;
   display: flex;
@@ -237,7 +238,9 @@ h3 {
   justify-content: center;
 }
 
+/* About */
 #section-3 {
+  position: relative;
   margin: 20px;
   display: flex;
   flex-flow: column;
@@ -294,24 +297,31 @@ ul.cells2 {
   margin: 2px 0;
 }
 
-.background {
-  background-image: url('images/Icons/illustration.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
+#frame1 {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  width: 18%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
 
-.frame {
-  float: right;
-  width: 55px;
-  height: 113px;
-  top: 20px;
+#frame2 {
+  position: absolute;
+  left: 0;
+  top: 270px;
+  width: 18%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
 }
 
 #Primary-3 {
   padding: 8px 0;
-  margin-left: 34px;
-  margin-bottom: 20px;
+  margin: 10px 0;
   text-align: center;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -319,11 +329,10 @@ ul.cells2 {
   font-size: 48px;
   line-height: 52px;
   color: #172b4d;
-  float: left;
 }
 
 #support {
   clear: both;
   margin-left: 0;
-  margin-bottom: 5px;
+  margin-bottom: 9px;
 }
