@@ -98,7 +98,7 @@ p {
 ul.social {
   list-style-type: none;
   margin-top: 4.5px;
-  display: inherit;
+  display: flex;
   justify-content: center;
 }
 
@@ -336,3 +336,5 @@ ul.cells2 {
   margin-left: 0;
   margin-bottom: 9px;
 }
+
+/* Contact */
