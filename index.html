@@ -171,19 +171,24 @@
     </main> 
     
     <footer> 
-        <p class="Primary-text">
+        <p class="primary-text">
             I'm always interested in hearing about new projects,
              so if you'd like to chat please get in touch.</p>
 
-        <form action="https://formspree.io/f/{Contact-form}" method="post" id="Contact-form">
+        <form action="https://formspree.io/f/xpzbzzjw" method="post">
 
-           <input type="text" id="fname" name="Fullname" placeholder="Full name" maxlength="30" required>
+           <input 
+           type="text" 
+           id="fname" 
+           name="Fullname" 
+           placeholder="Full name" 
+           maxlength="30" required>
             
-           <input type="email" id="E-mail" name="E-mail" placeholder="E-mail Address" required>
+           <input type="email" id="email" name="email" placeholder="Email Address" required>
             
            <textarea id="message" name="message" placeholder="Enter text here" maxlength="500" required></textarea>
             
-           <input type="submit" class="Primary-btn" id="submit" value="Get in touch">
+           <button type="submit" class="Primary-btn" id="submit">Get in touch</button>
             
         </form>   
         <ul class=social>
@@ -193,7 +198,8 @@
             <li><div class="social-icon"><a href="#"><img src="images/Icons/github.png" alt="github icon"></a></div></li>
             <li><div class="social-icon"><a href="#"><img src="images/Icons/angellist.png" alt="angellist icon"></a></div></li>
         </ul>
-        <p id="mail">myemailhere@email.com</p>
+       <div><p id="mail">myemailhere@email.com</p></div>
+       <hr class="last-line">
     </footer> 
 </body>
 </html>

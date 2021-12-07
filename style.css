@@ -215,11 +215,11 @@ h3 {
 
 .Primary-btn:hover,
 :enabled {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+  /* box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24); */
   opacity: 0.89;
   text-decoration: none;
   padding: 10px 19px;
-  background-color: #36b37f;
+  /* background-color: #36b37f; */
   border: 1px solid #36b37f;
   border-radius: 8px;
   width: fit-content;
@@ -338,3 +338,68 @@ ul.cells2 {
 }
 
 /* Contact */
+
+footer {
+  padding: 65px 24px;
+  margin: 0;
+}
+
+form {
+  text-align: center;
+}
+
+.primary-text {
+  width: 327px;
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+#fname {
+  border: 1px solid rgba(208, 217, 212, 1);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  width: 327px;
+  height: 48px;
+}
+
+#email {
+  border: 1px solid rgba(208, 217, 212, 1);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  width: 327px;
+  height: 48px;
+}
+
+#message {
+  width: 327px;
+  height: 114px;
+  margin-bottom: 24px;
+}
+
+#submit {
+  margin-bottom: 46px;
+}
+
+#mail {
+  width: 375px;
+  height: 189px;
+  font-size: 20px;
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  border: 1px solid red;
+}
+
+hr.last-line{
+  width: 134px;
+  height: 5px;
+  border-radius: 10px;
+  border-color: none;
+  background-color: black;
+  align-self: center;
+  margin-top: 134px;
+}
