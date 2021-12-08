@@ -97,7 +97,7 @@ section {
   color: #36b37e;
 }
 
-p {
+#firstp {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -130,9 +130,10 @@ ul.social {
   padding: 10px;
   display: flex;
   justify-content: center;
+  cursor: not-allowed;
 }
 
-hr {
+#firstline {
   color: #36b37e;
   border: 4px solid  #36b37e;
   border-radius: 30px;
@@ -215,7 +216,7 @@ h3 {
   text-align: center;
 }
 
-.Primary-btn {
+.btn .Primary-btn {
   text-decoration: none;
   padding: 10px 19px;
   background-color: #36b37f;
@@ -230,14 +231,12 @@ h3 {
   color: white;
 }
 
-.Primary-btn:hover,
-:enabled {
-  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+.btn .Primary-btn:hover {
   opacity: 0.89;
   text-decoration: none;
   padding: 10px 19px;
-  background-color: #36b37f;
   border: 1px solid #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 8px;
   width: fit-content;
   font-family: Inter, sans-serif;
@@ -261,6 +260,21 @@ h3 {
   margin: 20px;
   display: flex;
   flex-flow: column;
+}
+
+#support {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #172b4d;
+  margin-bottom: 32px;
+  align-content: center;
+  align-items: center;
+  margin-top: 20px;
+  clear: both;
 }
 
 #Categories {
@@ -348,8 +362,131 @@ ul.cells2 {
   color: #172b4d;
 }
 
-#support {
-  clear: both;
-  margin-left: 0;
-  margin-bottom: 9px;
+/* Contact Form */
+
+footer {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0;
+  padding: 0 22px;
+  text-align: center;
+}
+
+.primary-text {
+  color: #172b4d;
+  padding: 45px 24px;
+  width: 327px;
+  font-family: 'inter', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 58px;
+}
+
+#fname {
+  border: 1px solid rgba(208, 217, 212, 1);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+
+#email {
+  border: 1px solid rgba(208, 217, 212, 1);
+  border-radius: 4px;
+  margin-bottom: 24px;
+  width: 300px;
+  height: 48px;
+}
+
+#message {
+  width: 300px;
+  height: 114px;
+  margin-bottom: 24px;
+  border: 1px solid #36b37f;
+  border-radius: 4px;
+}
+
+#message::placeholder {
+  color: black;
+}
+
+::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 15px 16px;
+}
+
+#submit {
+  margin-bottom: 46px;
+}
+
+input[type="submit"] {
+  background-color: #008552;
+  text-decoration: none;
+  padding: 10px 19px;
+  border: 1px solid #008552;
+  border-radius: 4px;
+  width: fit-content;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.9;
+  box-shadow: 0 10px 10px rgba(54, 179, 127, 0.24);
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+}
+
+input[type="submit"]:active {
+  box-shadow: none;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  opacity: 0.9;
+}
+
+p#mail {
+  width: 375px;
+  height: 189px;
+  font-size: 20px;
+  font-family: 'inter', sans-serif;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  color: #172b4d;
+}
+
+#last-line {
+  width: 134px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: black;
+  align-self: center;
+  margin-top: 134px;
+}
+
+#frame3 {
+  position: absolute;
+  right: 0;
+  bottom: 366px;
+  width: 16%;
+  height: auto;
 }
