@@ -113,6 +113,7 @@ ul.social {
   padding: 10px;
   display: flex;
   justify-content: center;
+  cursor: not-allowed;
 }
 
 #firstline {
@@ -218,6 +219,7 @@ h3 {
   text-decoration: none;
   padding: 10px 19px;
   border: 1px solid #36b37f;
+  box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   border-radius: 8px;
   width: fit-content;
   font-family: Inter, sans-serif;
@@ -351,10 +353,12 @@ footer {
   margin: 0;
   display: flex;
   flex-flow: column;
-  align-content: center;
 }
 
 form {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   margin: 0;
   padding: 0 22px;
   text-align: center;
@@ -414,11 +418,11 @@ form {
 }
 
 input[type="submit"] {
-  background-color: #36b37f;
+  background-color: #008552;
   text-decoration: none;
   padding: 10px 19px;
-  border: 1px solid #36b37f;
-  border-radius: 8px;
+  border: 1px solid #008552;
+  border-radius: 4px;
   width: fit-content;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -428,10 +432,18 @@ input[type="submit"] {
   color: white;
 }
 
-input[type="submit"]:hover,
-:focus {
-  opacity: 0.89;
-  background-color: #4ead86;
+input[type="submit"]:hover {
+  opacity: 0.9;
+  box-shadow: 0 10px 10px rgba(54, 179, 127, 0.24);
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+}
+
+input[type="submit"]:active {
+  box-shadow: none;
+  background-color: #36b37f;
+  border: 1px solid #36b37f;
+  opacity: 0.9;
 }
 
 p#mail {
