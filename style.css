@@ -353,6 +353,7 @@ footer {
   margin: 0;
   display: flex;
   flex-flow: column;
+  align-content: center;
 }
 
 form {
