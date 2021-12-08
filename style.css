@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 4px 0;
-  /* width: 375px; */
+  width: 375px;
 }
 
 /* ToolBar */
@@ -352,8 +352,4 @@ ul.cells2 {
   clear: both;
   margin-left: 0;
   margin-bottom: 9px;
-}
-
-@media  screen {
-  
 }
