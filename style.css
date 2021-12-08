@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 4px 0;
-  width: 375px;
 }
 
 /* ToolBar */
@@ -22,7 +21,7 @@ nav {
 }
 
 /* logo */
-.logo {
+a.logo {
   padding: 0 12px;
   height: inherit;
   text-decoration: none;
@@ -370,6 +369,7 @@ footer {
   margin: 0;
   display: flex;
   flex-flow: column;
+  align-content: center;
 }
 
 form {
@@ -384,7 +384,6 @@ form {
 .primary-text {
   color: #172b4d;
   padding: 45px 24px;
-  width: 327px;
   font-family: 'inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -490,3 +489,41 @@ p#mail {
   width: 16%;
   height: auto;
 }
+
+#email-container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  a.logo {
+    display: none;
+  }
+  
+  a#togglebutton {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: auto;
+    background: transparent;
+  }
+
+  #menu-list {
+    display: flex;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
