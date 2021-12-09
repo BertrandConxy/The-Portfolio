@@ -600,6 +600,11 @@ ul.social2 {
 
   #section-1 {
     padding-bottom: 150px;
+    margin-bottom: 0;
+  }
+
+  #section2 {
+    margin-bottom: 90px;
   }
 
   .grid-container {
@@ -704,7 +709,12 @@ ul.social2 {
   }
 
   #section-1 {
-    margin-bottom: 160px;
+    margin-bottom: 0;
+    padding-bottom: 420px;
+  }
+
+  #section-2 {
+    margin-bottom: 150px;
   }
 
   #section-3 {
