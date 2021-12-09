@@ -1,9 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Portfolio Project
+# The Desktop Version of the Portfolio project.
 
->This is the first portfolio project made at microverse.
->Here there is Home page.
+>This is the Desktop-version of portfolio project but it is also fully responsive to different screens. I made it as micronaut.
+>you will see the screenshot of the home page below.
+>Everything is down below.
 
 It showcases my programming skills and experiences plus links to other projects of mine.
 
@@ -26,9 +27,9 @@ cd The-Portfolio in the terminal.
 -run code . to open it in vscode
 
 
-It is just a webpage and It can be opened in any browser.
+It is just a website and It can be opened in any browser.
 
-It is a mobile version layout which is not yet turned into responsive that is why you will notice that it does not fit the desktop screen.
+It is a mobile-first layout which is also fully responsive to different screens including desktops and laptops.
 
 I have put a live demo link below in the following section so that
 if anyone is interested can view it. However, if anyone would like to use it, simply, they can fork the repository and then use it independently.
@@ -41,8 +42,8 @@ This project is still under development.
  https://bertrandconxy.github.io/The-Portfolio/
 
 ## Screenshoot
+![Screenshot (70)](https://user-images.githubusercontent.com/90222110/145383472-76cee37a-272c-4f04-8bc6-78b27276ee8e.png)
 
-![home](https://user-images.githubusercontent.com/90222110/143865232-58e8eed4-aefb-4cac-a77c-5132257f42e4.jpg)
 
 ## Issues
 
@@ -67,6 +68,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
+- thanks Vana to your help and other coding partners of mine.
 
