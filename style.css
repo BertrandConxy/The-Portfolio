@@ -682,9 +682,10 @@ ul.social2 {
 
   #icon-separator {
     display: block;
+    opacity: 0.3;
     width: 100%;
     margin-bottom: 90px;
-    background-color: #dee1e6;
+    background-color: #dfe1e6;
   }
 
   .primary-text {
