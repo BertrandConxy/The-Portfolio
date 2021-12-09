@@ -187,6 +187,12 @@ ul.cells {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+  transition-duration: 0.4s;
+}
+
+.cell:hover {
+  background-color: #36b37e;
+  color: white;
 }
 
 h3 {
@@ -212,6 +218,32 @@ h3 {
   font-size: 17px;
   line-height: 24px;
   color: white;
+  transition: all 0.5s;
+}
+
+.Primary-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Primary-btn span::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Primary-btn:hover span {
+  padding-right: 25px;
+}
+
+.Primary-btn:hover span::after {
+  opacity: 1;
+  right: 0;
 }
 
 .btn .Primary-btn:hover {
@@ -293,6 +325,11 @@ li.card-2 {
   font-weight: 600;
   font-size: 12px;
   line-height: 24px;
+}
+
+.cell2:hover {
+  background-color: #36b37e;
+  color: white;
 }
 
 .img-holder {
@@ -431,6 +468,7 @@ input[type="submit"] {
   font-size: 17px;
   line-height: 24px;
   color: white;
+  transition: 0.5s;
 }
 
 input[type="submit"]:hover {
