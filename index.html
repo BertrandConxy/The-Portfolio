@@ -9,14 +9,20 @@
 </head>
 <body> 
     <header> 
-        <a class=" logo" href="#"><h1>Welcome</h1></a> 
+        <a class="logo" href="#"><h1>Welcome</h1></a> 
         <nav>
-           <a href="#"><img id="MenuIcons" src="images/Icons/Menu.png" alt="togglebutton"></a>
+           <ul id="menu-list">
+               <li ><a class="menu-items" href="#">Portfolio</a></li>
+               <li ><a class="menu-items" href="#">About</a></li>
+               <li ><a class="menu-items" href="#">Contact</a></li>
+           </ul>
+           <a href="#" id="togglebutton"><img id="MenuIcons" src="images/Icons/Menu.png" alt="togglebutton"></a>
        </nav>
    </header>
     <main >
         <section id="section-1">
-                 <h1 id="Intro">Hey there. I’m Mariane</h1>
+            <div class="showcase">
+                 <h1 id="Intro">Hey there. I’m Bertrand</h1>
                  <h2 id="Primary-2" >I’m a software developer</h2>
                  <p id="firstp">I can help you build a product , feature or website Look through some of my work 
                         and experience! If you like what you see and have a project you need coded,<br> 
@@ -31,6 +37,7 @@
                 
                <a href="#" class="action">
                <img src="images/Icons/Disabled.png" alt="Disabled"></a>
+            </div>
         </section>
 
         <section id="section-2">
@@ -187,15 +194,18 @@
            <input type="submit" id="submit" value="Get in touch">
             
         </form> 
-        <img src="images/Icons/Frame.png" alt="frame" id="frame3">  
-        <ul class=social>
-            <li><div class="social-icon"><a href="#"><img src="images/Icons/twitter.png" alt="Twitter icon"></a></div></li>
-            <li><div class="social-icon"><a href="#"><img src="images/Icons/Linkedinicon.png" alt="Linkedin icon"></a></div></li>
-            <li><div class="social-icon"><a href="#"><img src="images/Icons/medium.png" alt="medium icon"></a></div></li>
-            <li><div class="social-icon"><a href="#"><img src="images/Icons/github.png" alt="github icon"></a></div></li>
-            <li><div class="social-icon"><a href="#"><img src="images/Icons/angellist.png" alt="angellist icon"></a></div></li>
+        <img src="images/Icons/Bg-contact-3-desktop.png" alt="frame" id="frame3">
+        <img src="images/Icons/Bg-contact-2-desktop.png" alt="frame" id="frame4">
+        <img src="images/Icons/Bg-contact-desktop.png" alt="frame" id="frame5">
+        <hr id="icon-separator">  
+        <ul class=social2>
+            <li><div class="social-icon2"><a href="#"><img src="images/Icons/twitter.png" alt="Twitter icon"></a></div></li>
+            <li><div class="social-icon2"><a href="#"><img src="images/Icons/Linkedinicon.png" alt="Linkedin icon"></a></div></li>
+            <li><div class="social-icon2"><a href="#"><img src="images/Icons/medium.png" alt="medium icon"></a></div></li>
+            <li><div class="social-icon2"><a href="#"><img src="images/Icons/github.png" alt="github icon"></a></div></li>
+            <li><div class="social-icon2"><a href="#"><img src="images/Icons/angellist.png" alt="angellist icon"></a></div></li>
         </ul>
-       <div><p id="mail">myemailhere@email.com</p></div>
+       <div id="email-container"><p id="mail">myemailhere@email.com</p></div>
        <hr id="last-line">
     </footer> 
 </body>

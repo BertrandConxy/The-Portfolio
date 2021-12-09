@@ -1,7 +1,7 @@
 body {
+  position: relative;
   margin: 0;
   padding: 4px 0;
-  width: 375px;
 }
 
 /* ToolBar */
@@ -16,10 +16,13 @@ header {
 
 nav {
   padding: 0 14px;
+  display: flex;
+  justify-content: center;
+  flex-grow: 5;
 }
 
 /* logo */
-.logo {
+a.logo {
   padding: 0 12px;
   height: inherit;
   text-decoration: none;
@@ -30,7 +33,7 @@ nav {
   line-height: 1px;
   text-align: center;
   color: #28352f;
-  flex: 5;
+  align-self: flex-start;
 }
 
 #MenuIcons {
@@ -38,10 +41,40 @@ nav {
   height: inherit;
 }
 
+#menu-list {
+  align-self: center;
+  list-style-type: none;
+  display: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.menu-items {
+  text-decoration: none;
+  padding: 0;
+  margin: 0 10px;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
 /* Showcase */
 section {
   margin: 0;
   padding: 0;
+}
+
+.showcase {
+  margin: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 #section-1 {
@@ -100,6 +133,8 @@ ul.social {
   margin-top: 4.5px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
 .social-icon {
@@ -113,7 +148,6 @@ ul.social {
   padding: 10px;
   display: flex;
   justify-content: center;
-  cursor: not-allowed;
 }
 
 #firstline {
@@ -159,6 +193,7 @@ ul.social {
   background-color: #ebf0ee;
   height: 474px;
   width: 327px;
+  align-content: center;
 }
 
 .textholder {
@@ -405,7 +440,6 @@ form {
 .primary-text {
   color: #172b4d;
   padding: 45px 24px;
-  width: 327px;
   font-family: 'inter', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -419,7 +453,7 @@ form {
   border: 1px solid rgba(208, 217, 212, 1);
   border-radius: 4px;
   margin-bottom: 24px;
-  width: 300px;
+  width: 100%;
   height: 48px;
 }
 
@@ -427,12 +461,12 @@ form {
   border: 1px solid rgba(208, 217, 212, 1);
   border-radius: 4px;
   margin-bottom: 24px;
-  width: 300px;
+  width: 100%;
   height: 48px;
 }
 
 #message {
-  width: 300px;
+  width: 100%;
   height: 114px;
   margin-bottom: 24px;
   border: 1px solid #36b37f;
@@ -505,10 +539,263 @@ p#mail {
   margin-top: 134px;
 }
 
+ul.social2 {
+  list-style-type: none;
+  margin-top: 4.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon2 {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
 #frame3 {
   position: absolute;
   right: 0;
-  bottom: 366px;
+  bottom: 300px;
   width: 16%;
   height: auto;
+}
+
+#frame4 {
+  position: absolute;
+  left: 0;
+  bottom: 400px;
+  width: 16%;
+  height: auto;
+  display: none;
+}
+
+#frame5 {
+  position: absolute;
+  left: 150px;
+  bottom: 400px;
+  width: 16%;
+  height: auto;
+  display: none;
+}
+
+#email-container {
+  display: flex;
+  justify-content: center;
+}
+
+#icon-separator {
+  display: none;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  a.logo {
+    display: none;
+  }
+
+  #togglebutton {
+    display: none;
+  }
+
+  header {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    left: 50%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    z-index: 1;
+  }
+
+  .showcase {
+    margin-top: 50px;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #section-1 {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    padding-bottom: 75px;
+  }
+
+  #menu-list {
+    display: flex;
+  }
+
+  #frame3 {
+    bottom: 200px;
+  }
+}
+
+/* Medium devices (landscape tablets, 740px and up) */
+@media only screen and (min-width: 740px) {
+  #support {
+    max-width: 900px;
+    align-self: center;
+  }
+
+  #section-1 {
+    padding-bottom: 150px;
+    margin-bottom: 0;
+  }
+
+  #section2 {
+    margin-bottom: 90px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    justify-content: center;
+  }
+
+  @media screen and (max-width: 992px) {
+    .card-2:nth-child(3) {
+      grid-column: 1 / 3;
+      margin-left: 28%;
+    }
+  }
+
+  #frame1 {
+    top: 0;
+    width: 14%;
+  }
+
+  #Categories {
+    margin-top: 50px;
+  }
+
+  #firstline {
+    display: none;
+  }
+
+  #Recent {
+    margin-bottom: 80px;
+  }
+
+  #email-container {
+    display: none;
+  }
+
+  ul.social2 {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    left: 50%;
+    padding: 30px 0;
+    border-top: 5px solid rgb(63, 57, 57);
+    margin-top: 400px;
+  }
+
+  #last-line {
+    display: none;
+  }
+
+  form {
+    padding: 45px 0;
+    margin-bottom: 300px;
+    max-width: inherit;
+    flex-grow: 5;
+    align-items: flex-start;
+  }
+
+  #fname,
+  #email,
+  #message {
+    width: 90%;
+  }
+
+  #frame3 {
+    bottom: 150px;
+  }
+
+  #frame4 {
+    bottom: 150px;
+    display: block;
+  }
+
+  #frame5 {
+    bottom: 150px;
+    display: block;
+  }
+
+  #icon-separator {
+    display: block;
+    opacity: 0.3;
+    width: 100%;
+    margin-bottom: 90px;
+    background-color: #dfe1e6;
+  }
+
+  .primary-text {
+    max-width: 40%;
+    font-size: 30px;
+  }
+
+  footer {
+    flex-flow: row wrap;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .showcase {
+    margin-top: 120px;
+  }
+
+  #section-1 {
+    margin-bottom: 0;
+    padding-bottom: 420px;
+  }
+
+  #section-2 {
+    margin-bottom: 150px;
+  }
+
+  #section-3 {
+    margin-bottom: 100px;
+  }
+
+  .contact {
+    align-items: center;
+  }
+
+  form {
+    justify-content: center;
+    max-width: 600px;
+  }
+
+  .primary-text {
+    max-width: 500px;
+    font-size: 30px;
+    align-content: center;
+    padding-top: 90px;
+    padding-left: 2%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+  }
+
+  #frame2 {
+    top: 220px;
+  }
+
+  #frame1 {
+    width: 14%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .primary-text {
+    padding-left: 9%;
+  }
 }
