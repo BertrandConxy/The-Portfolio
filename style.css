@@ -133,6 +133,7 @@ ul.social {
   margin-top: 4.5px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .social-icon {
@@ -504,6 +505,7 @@ ul.social2 {
   margin-top: 4.5px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .social-icon2 {
