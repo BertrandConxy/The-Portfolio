@@ -187,6 +187,12 @@ ul.cells {
   font-weight: 600;
   font-size: 12px;
   line-height: 16px;
+  transition-duration: 0.4s;
+}
+
+.cell:hover {
+  background-color: #36b37e;
+  color: white;
 }
 
 h3 {
@@ -319,6 +325,11 @@ li.card-2 {
   font-weight: 600;
   font-size: 12px;
   line-height: 24px;
+}
+
+.cell2:hover {
+  background-color: #36b37e;
+  color: white;
 }
 
 .img-holder {
