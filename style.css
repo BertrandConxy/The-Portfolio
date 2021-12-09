@@ -725,7 +725,7 @@ ul.social2 {
     font-size: 30px;
     align-content: center;
     padding-top: 90px;
-    padding-left: 3vw;
+    padding-left: 2%;
   }
 
   .grid-container {
@@ -740,5 +740,11 @@ ul.social2 {
 
   #frame1 {
     width: 14%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .primary-text {
+    padding-left: 15%;
   }
 }
