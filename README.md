@@ -38,13 +38,11 @@ There are no other dependencies or installations required.
 ## Project Status
 This project is still under development.
 
-## Live Demo link
- https://bertrandconxy.github.io/The-Portfolio/
-
 ## Screenshoot
 ![Screenshot (71)](https://user-images.githubusercontent.com/90222110/145774268-e443e1d7-3387-498d-8828-6a38c9326edd.png)
 
-
+## Live Demo link
+ https://bertrandconxy.github.io/The-Portfolio/
 
 ## Issues
 
