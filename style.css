@@ -498,7 +498,7 @@ input[type="submit"] {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: white;
+  color: #000;
   transition: 0.5s;
 }
 
