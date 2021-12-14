@@ -487,10 +487,10 @@ form {
 }
 
 input[type="submit"] {
-  background-color: #008552;
+  background-color: #00b86e;
   text-decoration: none;
   padding: 10px 19px;
-  border: 1px solid #008552;
+  border: 1px solid #00b86e;
   border-radius: 4px;
   width: fit-content;
   font-family: Inter, sans-serif;
