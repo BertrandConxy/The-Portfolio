@@ -208,7 +208,7 @@ ul.cells {
 
 .cell {
   text-decoration: none;
-  color: #3a4a42;
+  color: #545454;
   background-color: #ebf0ee;
   border-radius: 4px;
   margin: 0;
@@ -345,7 +345,7 @@ li.card-2 {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
-  color: #36b37e;
+  color: #1a563d;
   background-color: white;
   border-radius: 8px;
   height: 25px;
