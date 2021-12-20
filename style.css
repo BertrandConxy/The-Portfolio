@@ -72,11 +72,12 @@ a.logo {
 }
 
 #menu-list.show {
-  height: 95vh;
+  height: 100vh;
   padding: 4px 28px;
   display: flex;
   flex-flow: column;
   align-items: flex-start;
+  overflow-y: hidden;
 }
 
 .menu-items {
