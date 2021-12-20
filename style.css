@@ -6,6 +6,7 @@ body {
 
 /* ToolBar */
 header {
+  position: relative;
   height: 50px;
   margin: 0;
   padding: 10px 12px;
@@ -16,10 +17,18 @@ header {
 }
 
 nav {
+  position: relative;
   padding: 0 14px;
   display: flex;
   justify-content: center;
   flex-grow: 5;
+}
+
+.toggle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 /* logo */
