@@ -6,21 +6,17 @@ body {
 
 /* ToolBar */
 header {
-  position: relative;
-  height: 50px;
   margin: 0;
   padding: 10px 12px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 nav {
   position: relative;
-  padding: 0 14px;
+  padding: 0 1px;
   display: flex;
-  justify-content: center;
   flex-grow: 5;
 }
 
@@ -29,6 +25,7 @@ nav {
   width: 100%;
   top: 0;
   left: 0;
+  background-color: white;
 }
 
 /* logo */
@@ -42,17 +39,44 @@ a.logo {
   color: #28352f;
 }
 
-#MenuIcons {
+#menu-icons1 {
+  top: 0;
+  right: 0;
+  position: absolute;
   width: 40px;
   height: inherit;
 }
 
+#menu-icons1.hide {
+  display: none;
+}
+
+#menu-icon2 {
+  display: none;
+  top: 0;
+  right: 0;
+  position: absolute;
+  width: 40px;
+  height: inherit;
+}
+
+#menu-icon2.show {
+  display: block;
+}
+
 #menu-list {
-  align-self: center;
   list-style-type: none;
   display: none;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
+}
+
+#menu-list.show {
+  height: 95vh;
+  padding: 4px 28px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
 }
 
 .menu-items {
@@ -63,7 +87,7 @@ a.logo {
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 52px;
   color: #172b4d;
 }
@@ -602,6 +626,16 @@ ul.social2 {
 
   #togglebutton {
     display: none;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .toggle {
+    position: static;
+    background-color: initial;
+    width: initial;
   }
 
   header {
