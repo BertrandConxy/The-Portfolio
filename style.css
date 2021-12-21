@@ -201,14 +201,27 @@ ul.social {
   flex-flow: column;
 }
 
+/* PopUp-window styles */
 .pop-up {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 111;
+  top: 0;
+  right: 18px;
+  width: 90%;
+  background-color: white;
+}
+
+.title {
+  color: rgb(38, 97, 185);
 }
 
 .pop {
   text-decoration: none;
-  padding: 10px 19px;
+  padding: 10px 29px;
   background-color: #36b37f;
   border: 1px solid #36b37f;
   border-radius: 8px;
@@ -219,6 +232,22 @@ ul.social {
   font-size: 17px;
   line-height: 24px;
   color: #000;
+}
+
+.popIcon {
+  padding: 0 15px;
+}
+
+.pop-image {
+  width: 100%;
+}
+
+.pop-close {
+  width: 18%;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 #Recent {

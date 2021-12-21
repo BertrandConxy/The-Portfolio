@@ -97,30 +97,28 @@ const projectData = [{
 ];
 
 const projectButton = document.querySelectorAll('.project-link');
+const container = document.createElement('div');
+function closeIt() {
+  document.body.removeChild(container);
+}
 
 projectButton.forEach((el) => el.addEventListener('click', () => {
   const displayedArray = projectData.filter((projectId) => projectId.id === el.getAttribute('id'));
-  console.log(displayedArray)
 
-  for (let i = 0; i < displayedArray.length; i++ ) {
-    const container = document.createElement('div');
-
+  for (let i = 0; i < displayedArray.length; i += 1) {
     document.body.appendChild(container);
     container.classList.add('pop-up');
-    const title = document.createElement('h3');
-    title.classList.add('title');
-
-    title.textContent = displayedArray[i].name;
-
-    container.appendChild(title);
-
     const img = document.createElement('img');
-
+    img.classList.add('pop-image');
     img.setAttribute('src', displayedArray[i].image);
 
-    img.style.width = '30%';
-
     container.appendChild(img);
+
+    const title = document.createElement('h3');
+    title.classList.add('title');
+    title.textContent = displayedArray[i].name;
+    container.appendChild(title);
+
     const ul = document.createElement('ul');
     ul.classList.add('cells');
     container.appendChild(ul);
@@ -136,7 +134,7 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     container.append(listItem1, listItem2, listItem3);
 
     const description = document.createElement('p');
-     description.classList.add('description');
+    description.classList.add('description');
     description.textContent = displayedArray[i].description;
     container.appendChild(description);
 
@@ -146,8 +144,8 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     liveIcon.classList.add('popIcon');
     liveIcon.src = '/images/Icons/livepop.png';
     liveIcon.alt = ' ';
-    liveLink.appendChild(liveIcon);
     liveLink.appendChild(linkText1);
+    liveLink.appendChild(liveIcon);
     liveLink.href = displayedArray[i].liveLink;
     liveLink.classList.add('Primary-btn', 'pop');
 
@@ -157,13 +155,18 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     sourceIcon.classList.add('popIcon');
     sourceIcon.src = '/images/Icons/gitpop.png';
     sourceIcon.alt = ' ';
-    sourceLink.appendChild(liveIcon);
     sourceLink.appendChild(linkText2);
+    sourceLink.appendChild(sourceIcon);
     sourceLink.href = displayedArray[i].sourceLink;
     sourceLink.classList.add('Primary-btn', 'pop');
     container.append(liveLink, sourceLink);
 
-    
-    
+    const closeTag = document.createElement('img');
+    closeTag.src = '/images/Icons/closetoggle.png';
+    closeTag.alt = ' ';
+    closeTag.classList.add('pop-close');
+    container.appendChild(closeTag);
+
+    closeTag.onclick = closeIt;
   }
 }));
