@@ -22,4 +22,76 @@ document.onclick = function remove(e) {
   }
 };
 
-second project
+const projectData = [{
+    id: "project1",
+    name: "Multi-Post Stories Gain+Glory1",
+    image: "./images/Icons/Snapshoot Portfolio.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    listItem1: "Ruby on Rails",
+    listItem2: "CSS",
+    listItem3: "Javascript",
+    liveLink: "#",
+    sourceLink: "#"
+},
+
+{
+    id: "project2",
+    name: "Multi-Post Stories Gain+Glory2",
+    image: "./images/Icons/Snapshoot Portfolio.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    listItem1: "Ruby on Rails",
+    listItem2: "CSS",
+    listItem3: "Javascript",
+    liveLink: "#",
+    sourceLink: "#"
+},
+
+{
+id: "project3",
+    name: "Multi-Post Stories Gain+Glory3",
+    image: "./images/Icons/Snapshoot Portfolio.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    listItem1: "Ruby on Rails",
+    listItem2: "CSS",
+    listItem3: "Javascript",
+    liveLink: "#",
+    sourceLink: "#"
+},
+
+{
+    id: "project4",
+    name: "Multi-Post Stories Gain+Glory4",
+    image: "./images/Icons/Snapshoot Portfolio.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    listItem1: "Ruby on Rails",
+    listItem2: "CSS",
+    listItem3: "Javascript",
+    liveLink: "#",
+    sourceLink: "#"
+},
+
+{
+    id: "project5",
+    name: "Multi-Post Stories Gain+Glory5",
+    image: "./images/Icons/Snapshoot Portfolio.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    listItem1: "Ruby on Rails",
+    listItem2: "CSS",
+    listItem3: "Javascript",
+    liveLink: "#",
+    sourceLink: "#"
+},
+
+{
+    id: "project6",
+    name: "Multi-Post Stories Gain+Glory6",
+    image: "./images/Icons/Snapshoot Portfolio.png",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    listItem1: "Ruby on Rails",
+    listItem2: "CSS",
+    listItem3: "Javascript",
+    liveLink: "#",
+    sourceLink: "#"
+}
+
+]
