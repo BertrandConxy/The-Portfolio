@@ -90,7 +90,7 @@ a.logo {
   font-weight: 600;
   font-family: 'inter', sans-serif;
   line-height: 44px;
-  color: #3A4A42;
+  color: #3a4a42;
 }
 
 .menu-list {
@@ -633,6 +633,7 @@ ul.social2 {
     line-height: 52px;
     color: #172b4d;
   }
+
   a.logo {
     display: none;
   }
