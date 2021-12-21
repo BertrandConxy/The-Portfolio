@@ -21,8 +21,9 @@ nav {
 }
 
 .toggle {
-  position: absolute;
+  position: fixed;
   width: 100%;
+  z-index: 11111;
   top: 0;
   left: 0;
   background-color: white;
@@ -53,8 +54,8 @@ a.logo {
 
 #menu-icon2 {
   display: none;
-  top: 0;
-  right: 0;
+  top: 40px;
+  right: 20px;
   position: absolute;
   width: 40px;
   height: inherit;
@@ -73,7 +74,7 @@ a.logo {
 
 #menu-list.show {
   height: 100vh;
-  padding: 4px 28px;
+  padding: 106px 28px;
   display: flex;
   flex-flow: column;
   align-items: flex-start;
@@ -85,12 +86,15 @@ a.logo {
   padding: 0;
   margin: 0 10px;
   text-align: center;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 52px;
-  color: #172b4d;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'inter', sans-serif;
+  line-height: 44px;
+  color: #3A4A42;
+}
+
+.menu-list {
+  margin-bottom: 26px;
 }
 
 /* Showcase */
@@ -621,6 +625,14 @@ ul.social2 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .menu-items {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 52px;
+    color: #172b4d;
+  }
   a.logo {
     display: none;
   }
