@@ -25,7 +25,7 @@ document.onclick = function remove(e) {
 const projectData = [{
   id: 'project1',
   name: 'Multi-Post Stories Gain+Glory1',
-  image: './images/Icons/Snapshoot-Portfolio.png',
+  image: '/images/cover/project-1.jpg',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   listItem1: 'Ruby on Rails',
   listItem2: 'CSS',
@@ -37,7 +37,7 @@ const projectData = [{
 {
   id: 'project2',
   name: 'Multi-Post Stories Gain+Glory2',
-  image: './images/Icons/Snapshoot-Portfolio.png',
+  image: '/images/cover/project-2.jpg',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   listItem1: 'Ruby on Rails',
   listItem2: 'CSS',
@@ -49,7 +49,7 @@ const projectData = [{
 {
   id: 'project3',
   name: 'Multi-Post Stories Gain+Glory3',
-  image: './images/Icons/Snapshoot-Portfolio.png',
+  image: '/images/cover/project-3.jpg',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   listItem1: 'Ruby on Rails',
   listItem2: 'CSS',
@@ -61,7 +61,7 @@ const projectData = [{
 {
   id: 'project4',
   name: 'Multi-Post Stories Gain+Glory4',
-  image: './images/Icons/Snapshoot-Portfolio.png',
+  image: '/images/cover/project-4.jpg',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   listItem1: 'Ruby on Rails',
   listItem2: 'CSS',
@@ -73,7 +73,7 @@ const projectData = [{
 {
   id: 'project5',
   name: 'Multi-Post Stories Gain+Glory5',
-  image: './images/Icons/Snapshoot-Portfolio.png',
+  image: '/images/cover/project-5.jpg',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   listItem1: 'Ruby on Rails',
   listItem2: 'CSS',
@@ -85,7 +85,7 @@ const projectData = [{
 {
   id: 'project6',
   name: 'Multi-Post Stories Gain+Glory6',
-  image: './images/Icons/Snapshoot-Portfolio.png',
+  image: '/images/cover/project-6.jpg',
   description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
   listItem1: 'Ruby on Rails',
   listItem2: 'CSS',
@@ -97,16 +97,20 @@ const projectData = [{
 ];
 
 const projectButton = document.querySelectorAll('.project-link');
+const windowContainer = document.createElement('div');
 const container = document.createElement('div');
 function closeIt() {
-  document.body.removeChild(container);
+  document.body.removeChild(windowContainer);
+  window.location.reload();
 }
 
 projectButton.forEach((el) => el.addEventListener('click', () => {
   const displayedArray = projectData.filter((projectId) => projectId.id === el.getAttribute('id'));
 
   for (let i = 0; i < displayedArray.length; i += 1) {
-    document.body.appendChild(container);
+    document.body.appendChild(windowContainer);
+    windowContainer.classList.add('popup-window');
+    windowContainer.appendChild(container);
     container.classList.add('pop-up');
     const img = document.createElement('img');
     img.classList.add('pop-image');
@@ -120,23 +124,29 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     container.appendChild(title);
 
     const ul = document.createElement('ul');
-    ul.classList.add('cells');
+    ul.classList.add('cells', 'pop-list');
     container.appendChild(ul);
     const listItem1 = document.createElement('li');
     listItem1.textContent = displayedArray[i].listItem1;
-    listItem1.classList.add('cell');
+    listItem1.classList.add('cell', 'pop-cell');
     const listItem2 = document.createElement('li');
     listItem2.textContent = displayedArray[i].listItem2;
-    listItem2.classList.add('cell');
+    listItem2.classList.add('cell', 'pop-cell');
     const listItem3 = document.createElement('li');
     listItem3.textContent = displayedArray[i].listItem3;
-    listItem3.classList.add('cell');
-    container.append(listItem1, listItem2, listItem3);
+    listItem3.classList.add('cell', 'pop-cell');
+    ul.appendChild(listItem1);
+    ul.appendChild(listItem2);
+    ul.appendChild(listItem3);
 
     const description = document.createElement('p');
     description.classList.add('description');
     description.textContent = displayedArray[i].description;
     container.appendChild(description);
+
+    const linkContainer = document.createElement('div');
+    linkContainer.classList.add('link-container');
+    container.appendChild(linkContainer);
 
     const liveLink = document.createElement('a');
     const linkText1 = document.createTextNode('See Live');
@@ -147,7 +157,7 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     liveLink.appendChild(linkText1);
     liveLink.appendChild(liveIcon);
     liveLink.href = displayedArray[i].liveLink;
-    liveLink.classList.add('Primary-btn', 'pop');
+    liveLink.classList.add('pop');
 
     const sourceLink = document.createElement('a');
     const linkText2 = document.createTextNode('See source');
@@ -158,8 +168,8 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     sourceLink.appendChild(linkText2);
     sourceLink.appendChild(sourceIcon);
     sourceLink.href = displayedArray[i].sourceLink;
-    sourceLink.classList.add('Primary-btn', 'pop');
-    container.append(liveLink, sourceLink);
+    sourceLink.classList.add('pop');
+    linkContainer.append(liveLink, sourceLink);
 
     const closeTag = document.createElement('img');
     closeTag.src = '/images/Icons/closetoggle.png';
