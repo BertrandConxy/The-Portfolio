@@ -987,10 +987,6 @@ ul.social2 {
   #frame1 {
     width: 14%;
   }
-
-  .link-container {
-    margin-left: 40px;
-  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -1010,9 +1006,9 @@ ul.social2 {
 
   .link-container {
     height: 12vh;
-    margin-left: 50px;
     order: 6;
     margin-top: 30px;
+    margin-left: 265px;
   }
 
   .pop-image {
@@ -1020,7 +1016,7 @@ ul.social2 {
   }
 
   .pop-close {
-    top: -9%;
+    top: -11%;
     right: 0;
     width: 7%;
   }
