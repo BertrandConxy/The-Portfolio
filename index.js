@@ -154,6 +154,7 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     liveIcon.classList.add('popIcon');
     liveIcon.src = 'images/Icons/livepop.png';
     liveIcon.alt = ' ';
+    liveLink.setAttribute('target', '_blank');
     liveLink.appendChild(linkText1);
     liveLink.appendChild(liveIcon);
     liveLink.href = displayedArray[i].liveLink;
@@ -165,6 +166,7 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     sourceIcon.classList.add('popIcon');
     sourceIcon.src = 'images/Icons/gitpop.png';
     sourceIcon.alt = ' ';
+    sourceLink.setAttribute('target', '_blank');
     sourceLink.appendChild(linkText2);
     sourceLink.appendChild(sourceIcon);
     sourceLink.href = displayedArray[i].sourceLink;
