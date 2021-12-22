@@ -1,5 +1,7 @@
 node_modules
 .hintrc
+.eslintrc.json
 .stylelintrc.json
 package-lock.json
 package.json
+.vscode

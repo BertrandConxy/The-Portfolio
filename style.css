@@ -6,20 +6,27 @@ body {
 
 /* ToolBar */
 header {
-  height: 50px;
   margin: 0;
   padding: 10px 12px;
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row;
   justify-content: space-between;
-  align-items: center;
 }
 
 nav {
-  padding: 0 14px;
+  position: relative;
+  padding: 0 1px;
   display: flex;
-  justify-content: center;
   flex-grow: 5;
+}
+
+.toggle {
+  position: fixed;
+  width: 100%;
+  z-index: 11111;
+  top: 0;
+  left: 0;
+  background-color: white;
 }
 
 /* logo */
@@ -33,17 +40,45 @@ a.logo {
   color: #28352f;
 }
 
-#MenuIcons {
+#menu-icons1 {
+  top: 0;
+  right: 0;
+  position: absolute;
   width: 40px;
   height: inherit;
 }
 
+#menu-icons1.hide {
+  display: none;
+}
+
+#menu-icon2 {
+  display: none;
+  top: 40px;
+  right: 20px;
+  position: absolute;
+  width: 40px;
+  height: inherit;
+}
+
+#menu-icon2.show {
+  display: block;
+}
+
 #menu-list {
-  align-self: center;
   list-style-type: none;
   display: none;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
+}
+
+#menu-list.show {
+  height: 100vh;
+  padding: 106px 28px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  overflow-y: hidden;
 }
 
 .menu-items {
@@ -51,12 +86,15 @@ a.logo {
   padding: 0;
   margin: 0 10px;
   text-align: center;
-  font-family: Inter, sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 52px;
-  color: #172b4d;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'inter', sans-serif;
+  line-height: 44px;
+  color: #3a4a42;
+}
+
+.menu-list {
+  margin-bottom: 26px;
 }
 
 /* Showcase */
@@ -587,12 +625,31 @@ ul.social2 {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .menu-items {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
   a.logo {
     display: none;
   }
 
   #togglebutton {
     display: none;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  .toggle {
+    position: static;
+    background-color: initial;
+    width: initial;
   }
 
   header {

@@ -11,18 +11,20 @@
   <body>
     <header>
       <a class="logo" href="#">Welcome</a>
-      <nav>
+      <a href="#" id="togglebutton"
+      ><img
+        id="menu-icons1"
+        src="images/Icons/Menu.png"
+        alt="navigation menu"
+    /></a>
+      <nav class="toggle">
         <ul id="menu-list">
-          <li><a class="menu-items" href="#">Portfolio</a></li>
-          <li><a class="menu-items" href="#">About</a></li>
-          <li><a class="menu-items" href="#">Contact</a></li>
+          <li class="menu-list"><a class="menu-items" href="#section-2">Portfolio</a></li>
+          <li class="menu-list"><a class="menu-items" href="#section-3">About</a></li>
+          <li class="menu-list"><a class="menu-items" href="#contact">Contact</a></li>
         </ul>
-        <a href="#" id="togglebutton"
-          ><img
-            id="MenuIcons"
-            src="images/Icons/Menu.png"
-            alt="navigation menu"
-        /></a>
+
+        <a href="#"><img id="menu-icon2" src="./images/Icons/closetoggle.png" alt="close menu"></a>
       </nav>
     </header>
     <main>
@@ -232,7 +234,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer id="contact">
       <p class="primary-text">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
@@ -319,6 +321,6 @@
 
       gtag('config', 'G-KWVH6E6BSE');
     </script>
-
+    <script src="index.js"></script>
   </body>
 </html>
