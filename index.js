@@ -197,5 +197,8 @@ form.addEventListener('submit', (e) => {
     form.appendChild(textContainer);
     textContainer.innerHTML = 'You entered an invalid email. Please make it all lowercase.';
     email.classList.add('invalid');
+  } else {
+    form.removeChild(textContainer);
+    email.classList.remove('invalid');
   }
 });
