@@ -195,7 +195,7 @@ form.addEventListener('submit', (e) => {
   if (!emailValue.match(lowercase)) {
     e.preventDefault();
     form.appendChild(textContainer);
-    textContainer.innerHTML = 'You entered invalid email. Please make it to lowercase';
+    textContainer.innerHTML = 'You entered an invalid email. Please make it all lowercase';
     email.classList.add('invalid');
   }
 });

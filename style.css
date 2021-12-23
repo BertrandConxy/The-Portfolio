@@ -605,10 +605,10 @@ form {
 }
 
 .invalid-message {
-  background-color: red;
-  color: black;
-  border: 2px solid black;
-  font-size: 10px;
+  color: red;
+  border: none;
+  font-size: 16px;
+  font-family: 'inter', sans-serif;
   bottom: 0;
   right: 0;
 }
