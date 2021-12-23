@@ -182,3 +182,20 @@ projectButton.forEach((el) => el.addEventListener('click', () => {
     closeTag.onclick = closeIt;
   }
 }));
+
+// email validation
+const email = document.getElementById('email');
+const form = document.getElementById('form');
+const textContainer = document.createElement('span');
+textContainer.className = 'invalid-message';
+
+form.addEventListener('submit', (e) => {
+  const emailValue = email.value.trim();
+  const lowercase = emailValue.toLowerCase();
+  if (!emailValue.match(lowercase)) {
+    e.preventDefault();
+    form.appendChild(textContainer);
+    textContainer.innerHTML = 'You entered invalid email. Please make it to lowercase';
+    email.classList.add('invalid');
+  }
+});
