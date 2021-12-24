@@ -189,16 +189,44 @@ const form = document.getElementById('form');
 const textContainer = document.createElement('span');
 textContainer.className = 'invalid-message';
 
+form.addEventListener('onsubmit', (e) => {
+  const emailValue = email.value.trim();
+  const lowercase = emailValue.toLowerCase();
+  if (!emailValue.match(lowercase)) {
+    e.preventDefault();
 form.addEventListener('submit', (e) => {
   const emailValue = email.value.trim();
   const lowercase = emailValue.toLowerCase();
   if (!emailValue.match(lowercase)) {
     e.preventDefault();
-    form.appendChild(textContainer);
-    textContainer.innerHTML = 'You entered an invalid email. Please make it all lowercase.';
-    email.classList.add('invalid');
-  } else {
-    form.removeChild(textContainer);
+ld(textContainer);
     email.classList.remove('invalid');
   }
 });
+
+//
+// user input storage
+const fullName = document.getElementById('fname');
+const message = document.getElementById('message');
+
+function storeFormData() {
+  const formData = {
+    fullName: fullName.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('userFormData', JSON.stringify(formData));
+}
+
+const formInputs = document.querySelectorAll('textarea, input');
+for (let j = 0; j < formInputs.length; j += 1) {
+  formInputs[j].addEventListener('input', storeFormData);
+}
+
+const formDataDeserialised = JSON.parse(localStorage.getItem('userFormData'));
+
+if (formDataDeserialised !== null) {
+  fullName.value = formDataDeserialised.fullName;
+  email.value = formDataDeserialised.email;
+  message.value = formDataDeserialised.message;
+}
