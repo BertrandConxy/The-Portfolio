@@ -223,8 +223,8 @@ for (let j = 0; j < formInputs.length; j += 1) {
 
 const formDataDeserialised = JSON.parse(localStorage.getItem('userFormData'));
 
-if(formDataDeserialised !== null) {
-  fullName.value = formDataDeserialised.fullName
-  email.value = formDataDeserialised.email
-  message.value = formDataDeserialised.message
+if (formDataDeserialised !== null) {
+  fullName.value = formDataDeserialised.fullName;
+  email.value = formDataDeserialised.email;
+  message.value = formDataDeserialised.message;
 }
