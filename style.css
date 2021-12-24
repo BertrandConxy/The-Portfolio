@@ -221,7 +221,6 @@ ul.social {
   justify-content: center;
   align-items: flex-start;
   background-color: white;
-  width: 95%;
   border-radius: 8px;
   position: relative;
 }
@@ -230,11 +229,13 @@ ul.social {
   color: #172b4d;
   text-align: initial;
   padding: 5px;
+  margin: 5px 0;
+  font-size: 1.2em;
 }
 
 .pop {
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 8px 20px;
   margin: 0 10px;
   background-color: #36b37f;
   border: 1px solid #36b37f;
@@ -244,7 +245,7 @@ ul.social {
   font-family: 'inter', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 0.95em;
   line-height: 24px;
   color: #000;
 }
@@ -252,7 +253,6 @@ ul.social {
 .link-container {
   display: flex;
   flex-flow: row;
-  height: 120px;
 }
 
 ul.pop-list {
@@ -263,6 +263,7 @@ ul.pop-list {
 .pop-cell {
   list-style-type: none;
   margin: 0 3px;
+  font-size: 0.6em;
 }
 
 .popIcon {
@@ -276,7 +277,7 @@ ul.pop-list {
 }
 
 .pop-close {
-  width: 3%;
+  width: 15%;
   cursor: pointer;
   position: absolute;
   top: 2%;
@@ -287,7 +288,7 @@ ul.pop-list {
   font-family: 'Inter', sans-serif;
   padding: 0 5px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 0.95em;
   color: #344563;
   line-height: 24px;
 }
@@ -733,6 +734,28 @@ ul.social2 {
   display: none;
 }
 
+@media only screen and (max-width: 360px) {
+  .description {
+    font-size: 0.7em;
+  }
+
+  .title {
+    font-size: 0.9em;
+  }
+
+  .pop {
+    padding: 2px 9px;
+  }
+
+  .popup-window {
+    height: 102vh;
+  }
+
+  .link-container {
+    height: 44px;
+  }
+}
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .menu-items {
@@ -798,7 +821,7 @@ ul.social2 {
   .pop-up {
     position: relative;
     top: 5%;
-    width: 90%;
+    width: 95%;
     z-index: 1111;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -811,24 +834,30 @@ ul.social2 {
     margin-top: 30px;
   }
 
+  .pop {
+    font-size: 0.9em;
+  }
+
   .pop-image {
     height: 50vh;
   }
 
   .pop-close {
-    top: -9%;
+    top: 1%;
     right: 0;
-    width: 7%;
+    width: 15%;
   }
 
   .description {
     order: 7;
     padding-bottom: 2px;
+    font-size: 0.8em;
   }
 
   .title {
     order: 6;
     margin-bottom: 0;
+    font-size: 1.2em;
   }
 
   ul.pop-list {
@@ -949,6 +978,27 @@ ul.social2 {
   footer {
     flex-flow: row wrap;
   }
+
+  .pop-close {
+    width: 9%;
+    top: -9%;
+  }
+
+  .description {
+    order: 7;
+    padding-bottom: 2px;
+    font-size: 1em;
+  }
+
+  .title {
+    order: 6;
+    margin-bottom: 0;
+    font-size: 1.2em;
+  }
+
+  .link-container {
+    margin-top: 2px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -1000,6 +1050,32 @@ ul.social2 {
   #frame1 {
     width: 14%;
   }
+
+  .pop-close {
+    top: -11%;
+    right: 0;
+    width: 7%;
+  }
+
+  .description {
+    order: 7;
+    padding-bottom: 2px;
+    font-size: 1em;
+  }
+
+  .title {
+    order: 6;
+    margin-bottom: 0;
+    font-size: 1.7em;
+  }
+
+  .pop {
+    font-size: 1.1em;
+  }
+
+  .popup-window {
+    height: 110vh;
+  }
 }
 
 @media only screen and (min-width: 1100px) {
@@ -1007,10 +1083,13 @@ ul.social2 {
     padding-left: 9%;
   }
 
+  .popup-window {
+    height: 110vh;
+  }
+
   .pop-up {
     position: relative;
     top: 5%;
-    width: 90%;
     z-index: 1111;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -1020,7 +1099,7 @@ ul.social2 {
   .link-container {
     height: 12vh;
     order: 6;
-    margin-top: 30px;
+    margin-top: 3px;
     margin-left: 265px;
   }
 
@@ -1037,11 +1116,13 @@ ul.social2 {
   .description {
     order: 7;
     padding-bottom: 2px;
+    font-size: 1em;
   }
 
   .title {
     order: 6;
     margin-bottom: 0;
+    font-size: 1.65em;
   }
 
   ul.pop-list {
@@ -1050,5 +1131,9 @@ ul.social2 {
 
   .pop-cell {
     margin: 0 3px;
+  }
+
+  .pop {
+    font-size: 1.17em;
   }
 }
