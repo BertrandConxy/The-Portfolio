@@ -202,3 +202,29 @@ form.addEventListener('submit', (e) => {
     email.classList.remove('invalid');
   }
 });
+
+// user input storage
+const fullName = document.getElementById('fname');
+const message = document.getElementById('message');
+
+function storeFormData() {
+  const formData = {
+    fullName: fullName.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('userFormData', JSON.stringify(formData));
+}
+
+const formInputs = document.querySelectorAll('textarea, input');
+for (let j = 0; j < formInputs.length; j += 1) {
+  formInputs[j].addEventListener('input', storeFormData);
+}
+
+const formDataDeserialised = JSON.parse(localStorage.getItem('userFormData'));
+
+if (formDataDeserialised !== null) {
+  fullName.value = formDataDeserialised.fullName;
+  email.value = formDataDeserialised.email;
+  message.value = formDataDeserialised.message;
+}
