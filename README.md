@@ -1,16 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# The Desktop Version of the Portfolio project.
+# Bertrand Mutangana Ishimwe portfolio website.
 
->This is the Desktop-version of portfolio project but it is also fully responsive to different screens. I made it as micronaut.
->you will see the screenshot of the home page below.
->Everything is down below.
+>This is my portfolio website. It showcases my skills as software developer, experience that I have and the projects that I have worked on as a proof. Moreover, there is a link to download and get my resume. There are links to my social media platforms.
 
-It showcases my programming skills and experiences plus links to other projects of mine.
+It is a mobile-first layout which is also fully responsive to different screens including desktops and laptops.
 
+I have put a live demo link below in the following section so thatif anyone is interested can view it. 
+However, if anyone would like to use it, simply, they can fork the repository and then use it independently.
+There are no other dependencies or installations required.
 ## Built With
 
-- HTML and CSS 
+- HTML and CSS
+- basic javascript
 
 ## How to use and run this project
 
@@ -18,22 +20,13 @@ It showcases my programming skills and experiences plus links to other projects 
 
 -Clone this repository with
 
-git clone https://github.com/BertrandConxy/The-Portfolio.git using your terminal or command line.
+<code>git clone https://github.com/BertrandConxy/The-Portfolio.git</code> using your terminal or command line.
 
 -Change to the project directory by entering :
 
-cd The-Portfolio in the terminal.
+<code>cd The-Portfolio</code> in the terminal.
 
--run code . to open it in vscode
-
-
-It is just a website and It can be opened in any browser.
-
-It is a mobile-first layout which is also fully responsive to different screens including desktops and laptops.
-
-I have put a live demo link below in the following section so that
-if anyone is interested can view it. However, if anyone would like to use it, simply, they can fork the repository and then use it independently.
-There are no other dependencies or installations required.
+-run <code>code . </code>to open it in vscode
 
 ## Project Status
 This project is still under development.
@@ -57,7 +50,7 @@ https://github.com/BertrandConxy/The-Portfolio/issues
 👤 **Bertrand Mutangana Ishimwe**
 
 - GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
-- Twitter: [@Bconxy](https://twitter.com/Bconxy)
+- Twitter: [@BertrandMutanga](https://twitter.com/Bconxy)
 - LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
 
 
