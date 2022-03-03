@@ -50,8 +50,8 @@ https://github.com/BertrandConxy/The-Portfolio/issues
 👤 **Bertrand Mutangana Ishimwe**
 
 - GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
-- Twitter: [@BertrandMutanga](https://twitter.com/Bconxy)
-- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrand-mutangana-024905220/)
+- Twitter: [@BertrandMutanga](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrandmutangana/)
 
 
 ## Show your support
